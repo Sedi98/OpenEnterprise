@@ -1,0 +1,412 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_row_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex_column_reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 107px;
+  border-bottom: 1px solid #e7e7e7;
+
+  padding: 5px 20px;
+}
+
+.brand {
+  align-items: center;
+  padding: 5px;
+}
+
+.link_ul {
+  gap: 40px;
+}
+
+.link_ul li a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.5s;
+  font-size: 18px;
+}
+
+.link_ul li a:hover {
+  color: Green;
+}
+
+.hero_container {
+  padding: 30px 20px;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.hero_title {
+  font-weight: 700;
+  font-size: 70px;
+}
+.hero_text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #66645e;
+}
+
+.container_left {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_btn {
+  margin-top: 30px;
+  height: 64px;
+  border: 0px solid black;
+  border-radius: 10px;
+  padding: 20px 24px 20px 24px;
+  background-color: #71a894;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.container_about {
+  text-align: center;
+  padding: 10px 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_about h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.container_about p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: 70%;
+}
+
+.about_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 24px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  height: 340px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card_img {
+  width: 100px;
+  height: 100px;
+}
+
+.card_title {
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px;
+}
+
+.card_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.members {
+  padding: 30px;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.members_left {
+  width: 50%;
+}
+
+.members_right {
+  width: 50%;
+  position: relative;
+}
+
+.members_img {
+  width: 80px;
+  height: 80px;
+}
+
+.members_right_container {
+  border: 4px solid black;
+  border-radius: 16px;
+  height: 400px;
+  width: 70%;
+  padding: 40px;
+}
+
+.members_left_container {
+  gap: 24px;
+  position: relative;
+}
+
+.member_title {
+  line-height: 64px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.member_title_left {
+  line-height: 64px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.member_card {
+  gap: 16px;
+  align-items: center;
+}
+
+.member_name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.member_name_text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #66645e;
+}
+
+.member_card_container {
+  gap: 24px;
+}
+
+.widget_organization {
+  border: 4px solid black;
+  border-radius: 8px;
+  height: 400px;
+  width: 80%;
+  padding: 40px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.widget_name_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.widget_name_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.widget_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.widget_inner_container {
+  gap: 24px;
+}
+
+.vote_container_inner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 12px;
+}
+
+.vote_container_inner_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.vote_container_inner_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.vote_btn {
+  padding: 12px 24px;
+  background-color: #303031;
+  border: 1px solid #303031;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #fff;
+}
+
+.back_image {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  z-index: -1;
+}
+
+.card_second {
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 30%;
+  gap: 16px;
+
+  padding: 24px;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.card_title_second {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.card_text_second {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.badge {
+  background-color: #71a894;
+  padding: 4px 8px;
+  border-radius: 40px;
+}
+
+.badge_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.badge_container {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.badge_text_italic {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #303031;
+}
+
+.align_center {
+  justify-content: center;
+}
+
+.section_fluid {
+  padding: 64px;
+}
+
+.section_fluid_btn {
+  background-color: #303031;
+  padding: 20px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero_title_second {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #303031;
+}
+.hero_text_second {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #303031;
+}
+
+.footer {
+  padding: 50px 40px;
+}
+
+.footer_brand{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #303031;
+}
+.footer_links {
+  margin-left: auto;
+}
+
+.footer_ul{
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer_a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #303031;
+    transition: color 0.5s;
+}
+
+.footer_a:hover{
+    color: #71A894;
+}
