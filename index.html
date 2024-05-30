@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,24 +33,27 @@
             <li><a href="">Contribute</a></li>
             <li><a href="">Request early access</a></li>
           </ul>
+          <div class="hamburger">
+            <img src="./assets/svg/hamburger.svg" alt="" srcset="">
+          </div>
         </div>
       </nav>
 
       <section class="hero_container flex_row">
         <div class="container_left flex_column">
           <div class="container_left_inner flex_column">
-            <h1 class="hero_title">A new model for open collaboration</h1>
-            <p class="hero_text">
+            <h1 class="hero_title mobile_title">A new model for open collaboration</h1>
+            <p class="hero_text mobile_text">
               Run an organization where members get rewarded for their
               contributions with fractional ownership.
             </p>
-            <div>
+            <div class="btn_container">
               <button class="hero_btn">Request early access</button>
             </div>
           </div>
         </div>
         <div class="container_right">
-          <img src="./assets/svg/headerImage.svg" alt="" srcset="" />
+          <img src="./assets/svg/headerImage.svg" alt="" />
         </div>
       </section>
     </header>
@@ -89,7 +93,7 @@
       </div>
     </div>
 
-    <div class="members flex_row">
+    <div class="members flex_row mobile_column">
       <div class="members_left">
         <div class="members_left_container flex_column">
           <img
@@ -98,10 +102,10 @@
             alt=""
             srcset=""
           />
-          <span class="member_title"
+          <span class="member_title  mobile_title"
             >Kickstart an organization with your co-founders</span
           >
-          <p class="card_text">
+          <p class="card_text mobile_text">
             It’s the early days, you just had a long conversation with two
             friends about a meaningful challenge that you’re all passionate
             about and have a potential solution for. You’re ready to embark the
@@ -145,7 +149,7 @@
       </div>
     </div>
 
-    <div class="members flex_row_reverse">
+    <div class="members flex_row_reverse mobile_column">
       <div class="members_left">
         <div class="members_left_container flex_column">
           <img
@@ -154,10 +158,10 @@
             alt=""
             srcset=""
           />
-          <span class="member_title"
+          <span class="member_title mobile_title"
             >Onboard users, investors and advisors as you grow</span
           >
-          <p class="card_text">
+          <p class="card_text mobile_text">
             You’ve bootstrapped and delivered an MVP, and some investors and
             advisors are interested in having a chat with you. As an Open
             Enterprise, you can onboard them seamlessly into your digital
@@ -255,13 +259,13 @@
     <section class="hero_container flex_row">
       <div class="container_left flex_column">
         <div class="container_left_inner flex_column">
-          <h1 class="hero_title_second">Start an Open Enterprise</h1>
-          <p class="hero_text_second">
+          <h1 class="hero_title_second mobile_title">Start an Open Enterprise</h1>
+          <p class="hero_text_second mobile_text">
             If you can’t wait to run a new or existing organization on Open
             Enterprise and are willing to explore and navigate the beta, we’d
             love to get you started.
           </p>
-          <div>
+          <div class="btn_container">
             <button class="hero_btn">Request early access</button>
           </div>
         </div>
@@ -279,6 +283,9 @@
                 <li><a href="" class="footer_a">Twitter</a></li>
                 <li><a href="" class="footer_a">Contact us</a></li>
             </ul>
+        </div>
+        <div class="hamburger">
+          <img src="./assets/svg/hamburger.svg" alt="" srcset="">
         </div>
     </footer>
   </body>
