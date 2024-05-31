@@ -54,7 +54,7 @@ body {
 
 .link_ul li a {
   padding: 5px;
-  color: black;
+  color: var(--primaryBlack);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.5s;
@@ -83,7 +83,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  color: #66645e;
+  color: var(--textGray);
 }
 
 .container_left {
@@ -108,14 +108,14 @@ body {
 .hero_btn {
   margin-top: 30px;
   height: 64px;
-  border: 0px solid black;
+  border: 0px solid var(--primaryBlack);
   border-radius: 10px;
   padding: 20px 24px 20px 24px;
-  background-color: #71a894;
+  background-color: var(--primaryGreen);
   cursor: pointer;
   font-weight: 700;
   font-size: 18px;
-  color: #fff;
+  color: var(--textWhite);
   position: relative;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .members_right_container {
-  border: 4px solid black;
+  border: 4px solid var(--primaryBlack);
   border-radius: 16px;
   height: 400px;
   width: 75%;
@@ -257,7 +257,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  color: #66645e;
+  color: var(--textGray);
 }
 
 .member_card_container {
@@ -265,13 +265,13 @@ body {
 }
 
 .widget_organization {
-  border: 4px solid black;
+  border: 4px solid var(--primaryBlack);
   border-radius: 16px;
   height: 400px;
   width: 80%;
   padding: 40px;
   z-index: 1;
-  background-color: #fff;
+  background-color: var(--textWhite);
   margin-left: 32px;
 }
 
@@ -322,14 +322,14 @@ body {
 
 .vote_btn {
   padding: 12px 24px;
-  background-color: #303031;
-  border: 1px solid #303031;
+  background-color: var(--primaryBlack);
+  border: 1px solid var(--primaryBlack);
   border-radius: 16px;
   cursor: pointer;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
-  color: #fff;
+  color: var(--textWhite);
 }
 
 .back_image {
@@ -366,7 +366,7 @@ body {
 }
 
 .badge {
-  background-color: #71a894;
+  background-color: var(--primaryGreen);
   padding: 4px 8px;
   border-radius: 40px;
 }
@@ -375,7 +375,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: var(--textWhite);
 }
 
 .badge_container {
@@ -388,7 +388,7 @@ body {
   font-weight: 100;
   font-size: 16px;
   line-height: 24px;
-  color: #303031;
+  color: var(--primaryBlack);
 }
 
 .justify_center {
@@ -404,13 +404,13 @@ body {
 }
 
 .section_fluid_btn {
-  background-color: #303031;
+  background-color: var(--primaryBlack);
   padding: 20px 24px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #fff;
+  color: var(--textWhite);
   cursor: pointer;
 }
 
@@ -418,13 +418,13 @@ body {
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
-  color: #303031;
+  color: var(--primaryBlack);
 }
 .hero_text_second {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  color: #303031;
+  color: var(--primaryBlack);
 }
 
 .footer {
@@ -435,7 +435,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #303031;
+  color: var(--primaryBlack);
 }
 .footer_links {
   margin-left: auto;
@@ -451,12 +451,12 @@ body {
   font-size: 20px;
   line-height: 23px;
   text-decoration: none;
-  color: #303031;
+  color: var(--primaryBlack);
   transition: color 0.5s;
 }
 
 .footer_a:hover {
-  color: #71a894;
+  color: var(--primaryGreen);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -529,7 +529,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     font-weight: 400;
-    color: #66645e;
+    color: var(--textGray);
   }
 
   .about_cards {
@@ -572,7 +572,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     font-weight: 400;
-    color: #66645e;
+    color: var(--textGray);
   }
 
   .members_img{
